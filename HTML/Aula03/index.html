@@ -10,14 +10,20 @@
 
     <p>utilizando o atributo href:</p>
 
+    <!-- href define o link de destino de um <a> -->
     <a href="https://github.com/GSlCSN/Proa-Conteudo/pull/1"
       >github do craudio</a
     >
 
+    <!-- hr desenha uma linha horizontal, útil para separar seções visualmente -->
     <hr>    
 
     <P>Utilizando o atributo src, width, height e alt:</P>
 
+    <!-- <img> exibe uma imagem (não tem tag de fechamento) -->
+    <!-- src: caminho do arquivo da imagem -->
+    <!-- width/height: tamanho em pixels -->
+    <!-- alt: texto alternativo, exibido se a imagem não carregar e lido por leitores de tela (acessibilidade) -->
     <img src="1-escudo-do-corinthians.webp" width="900px" height="500px" alt="escudo do timão">
 
 
@@ -25,8 +31,11 @@
 
     <p>Utilizando o atributo style:</p>
 
+    <!-- style aplica CSS diretamente na tag (estilo "inline") -->
     <p style="color: orangered;">Esse texto e laranja</p>
 
+    <!-- é possível misturar cores: o texto principal fica laranja, -->
+    <!-- mas o <span> interno sobrescreve a cor só daquele trecho, deixando-o preto -->
     <p style="color: orangered; ">Esse texto e mais esse aqui e <span style="color: black;">Preta</span></p>
 
 </body>
