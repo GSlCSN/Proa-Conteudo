@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteudo Aula 11 - HTML</title>
+
+    <style>
+        .lista-nav {
+            list-style-type: none;
+            margin: 0%;
+            padding: 0%;
+            overflow: hidden;
+            background-color: black;
+        }
+
+        .lista-nav li {
+            float: left;
+        }
+
+    li a {
+        display: block;
+        text-decoration: none;
+        padding: 16px;
+        color: white;
+        font-family: monospace;
+        text-align: center;
+        border-radius: 2px;
+    }
+
+    a:hover{
+        background-color: bisque;
+        color: black;
+    }
+
+    a:active{
+        background-color: gray;
+        transition: .2s;
+    }
+
+    </style>
+</head>
+<body>
+
+    <h1>Listas não ordenadas no HTML</h1>
+
+    <ul>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ul>
+
+    <hr>
+
+    <h3>Utiliando list-style-type: disc</h3>
+
+    <ul style="list-style-type: disc;">
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ul>
+
+    <br>
+    
+    <h3>Utiliando list-style-type: circle</h3>
+
+    <ul style="list-style-type: circle;">
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ul>
+
+    <br>
+
+    <h3>Utiliando list-style-type: square</h3>
+
+    <ul style="list-style-type: square;">
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ul>
+
+    <br>
+
+    <h3>Utiliando list-style-type: none</h3>
+
+    <ul style="list-style-type: none;">
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ul>
+
+    <hr>
+
+    <h2>Listas aninhadas</h2>
+
+    <ul>
+        <li>item</li>
+        <li>item</li>
+            <ul>
+                <li>item</li>
+                <li>item</li>
+            </ul>
+        <li>item</li>
+        <li>item</li>
+    </ul>
+
+    <hr>
+
+    <h2>Listas horizontais com o CSS:</h2>
+
+    <ul class="lista-nav">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#contatos">Contatos</a></li>
+        <li><a href="#blog">Blog</a></li>
+    </ul>
+
+</body>
+</html>
