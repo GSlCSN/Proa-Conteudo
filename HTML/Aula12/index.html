@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conteúdo Aula 12 - HTML</title>
+
+    <style>
+        /* Alinhando divs com o float */
+
+        .div-float{
+            width: 100%;
+            overflow: auto;
+        }
+
+        .div-float div {
+            width: 33%;
+            float: left;
+        }
+
+        /* Alinhando divs com o Inline-block */
+
+        .div-inline-block{
+            width: 100%;
+            overflow: auto;
+        }
+
+        .div-inline-block div {
+            display: inline-block;
+        }
+
+        /* Alinhando divs com o flex */
+
+        .div-flex {
+            display: flex;
+        }
+
+        .div-flex div {
+            width: 33%;
+        }
+
+        /* Alinhando divs com o grid */
+
+        .div-grid {
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <h1>Divs no HTML</h1>
+
+    <h3>Varios Elementos div</h3>
+
+    <div style="background-color: #2563EB; border: 2px solid black;">
+        <h2>Isso e um H2</h2>
+        <p>Isso e um paragrafo</p>
+        <p>Isso e outro paragrafo</p>
+    </div>
+
+    <div style="background-color: #0F172A; border: 2px solid black;">
+        <h2>Isso e um H2</h2>
+        <p>Isso e um paragrafo</p>
+        <p>Isso e outro paragrafo</p>
+    </div>
+
+    <div style="background-color: #CBD5E1; border: 2px solid black;">
+        <h2>Isso e um H2</h2>
+        <p>Isso e um paragrafo</p>
+        <p>Isso e outro paragrafo</p>
+    </div>
+
+    <hr>
+
+    <h3>Alinhando div lado a lado</h3>
+
+    <h2>Utilizando o float:</h2>
+
+    <div class="div-float">
+        <div style="background-color: #2563EB; border: 2px solid black;">
+        <h2>Isso e um H2</h2>
+        <p>Isso e um paragrafo</p>
+        <p>Isso e outro paragrafo</p>
+        </div>
+
+        <div style="background-color: #0F172A; border: 2px solid black;">
+            <h2>Isso e um H2</h2>
+            <p>Isso e um paragrafo</p>
+            <p>Isso e outro paragrafo</p>
+        </div>
+
+        <div style="background-color: #CBD5E1; border: 2px solid black;">
+            <h2>Isso e um H2</h2>
+            <p>Isso e um paragrafo</p>
+            <p>Isso e outro paragrafo</p>
+        </div>
+    </div>
+
+    <br>
+
+    <h3>Utilizando o inline-block:</h3>
+
+    <div class="div-inline-block">
+        <div style="background-color: #2563EB; border: 2px solid black;">
+        <h2>Isso e um H2</h2>
+        <p>Isso e um paragrafo</p>
+        <p>Isso e outro paragrafo</p>
+        </div>
+
+        <div style="background-color: #0F172A; border: 2px solid black;">
+            <h2>Isso e um H2</h2>
+            <p>Isso e um paragrafo</p>
+            <p>Isso e outro paragrafo</p>
+        </div>
+
+        <div style="background-color: #CBD5E1; border: 2px solid black;">
+            <h2>Isso e um H2</h2>
+            <p>Isso e um paragrafo</p>
+            <p>Isso e outro paragrafo</p>
+        </div>
+    </div>
+
+    <br>
+
+    <h3>Utilizando o flex</h3>
+
+    <div class="div-flex">
+        <div style="background-color: #2563EB; border: 2px solid black;">
+            <h2>Isso e um H2</h2>
+            <p>Isso e um paragrafo</p>
+            <p>Isso e outro paragrafo</p>
+        </div>
+
+        <div style="background-color: #0F172A; border: 2px solid black;">
+            <h2>Isso e um H2</h2>
+            <p>Isso e um paragrafo</p>
+            <p>Isso e outro paragrafo</p>
+        </div>
+
+        <div style="background-color: #CBD5E1; border: 2px solid black;">
+            <h2>Isso e um H2</h2>
+            <p>Isso e um paragrafo</p>
+            <p>Isso e outro paragrafo</p>
+        </div>
+    </div>
+
+    <br>
+
+    <h3>Utilizando o grid</h3>
+
+        <div style="background-color: #2563EB; border: 2px solid black;">
+            <h2>Isso e um H2</h2>
+            <p>Isso e um paragrafo</p>
+            <p>Isso e outro paragrafo</p>
+        </div>
+
+        <div style="background-color: #0F172A; border: 2px solid black;">
+            <h2>Isso e um H2</h2>
+            <p>Isso e um paragrafo</p>
+            <p>Isso e outro paragrafo</p>
+        </div>
+
+        <div style="background-color: #CBD5E1; border: 2px solid black;">
+            <h2>Isso e um H2</h2>
+            <p>Isso e um paragrafo</p>
+            <p>Isso e outro paragrafo</p>
+        </div>
+    <div class="div-grid">
+
+    </div>
+    
+</body>
+</html>
