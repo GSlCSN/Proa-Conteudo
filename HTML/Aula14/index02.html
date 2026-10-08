@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>conteúdo Aula14 - HTML</title>
+</head>
+<body>
+
+    <h1>JavaScript no HTML</h1>
+
+    <h3>Alterando valores de atributos co JavaScript</h3>
+
+    <img id="Lampada" src="desligada.gif" width="100px" height="180px">
+
+    <br>
+
+    <button onclick="interuptor(1)">acender Lâmpada</button>
+    <button onclick="interuptor(0)">desligar Lâmpada</button>
+
+    <script>
+        function interuptor(status){
+            var Lampada;
+
+            if (status == 0) {
+                Lampada = "desligada.gif"
+            }     else {
+                Lampada = "ligada.gif"
+            }   
+
+            document.getElementById("Lampada").src = Lampada;
+        }
+    </script>
+    
+</body>
+</html>
